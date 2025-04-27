@@ -1,30 +1,32 @@
-import random
-import string
+def passw():
 
-def generate_password(length=12, use_upper=True, use_lower=True, use_digits=True, use_symbols=True):
-    characters = ''
-    if use_upper:
-        characters += string.ascii_uppercase
-    if use_lower:
-        characters += string.ascii_lowercase
-    if use_digits:
-        characters += string.digits
-    if use_symbols:
-        characters += string.punctuation
+    while True:
+        num = input("Enter 4-digit number: ")
+        if num.isdigit() and len(num) == 4:
+            break
+        print("Invalid. Please enter exactly 4 digits:")
 
-    if not characters:
-        return "Error: No character set selected!"
+    while True:
+        alphabets = input("Enter 4 alphabets: ")
+        if alphabets.isalpha() and len(alphabets) == 4:
+            break
+        print("Invalid. Only 4 alphabets allowed:")
 
-    password = ''.join(random.choice(characters) for _ in range(length))
-    return password
+    while True:
+        special = input("Enter special characters only: ")
+        if all(not ch.isalnum() for ch in special):
+            break
+        print("Invalid. Only special characters allowed:")
 
-# UI
-print("🔐 Password Generator 🔐")
-length = int(input("Enter password length: "))
-upper = input("Include uppercase letters? (y/n): ").lower() == 'y'
-lower = input("Include lowercase letters? (y/n): ").lower() == 'y'
-digits = input("Include digits? (y/n): ").lower() == 'y'
-symbols = input("Include symbols? (y/n): ").lower() == 'y'
+    if alphabets.islower():
+        alphabets = alphabets[:-1] + alphabets[-1].upper()
 
-password = generate_password(length, upper, lower, digits, symbols)
-print(f"\nGenerated Password: {password}")
+    length = len(num) + len(alphabets) + len(special)
+    if length > 9:
+        print("Total password length > 9, restarting input...\n")
+        return passw()
+
+    print(f"\n Password Length: {length}")
+    print(f"Final Password: {num}{special}{alphabets}")
+
+passw()
