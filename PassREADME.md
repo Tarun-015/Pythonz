@@ -1,30 +1,31 @@
-# 🔐 Python Password Generator
+📜 How It Works
+User Inputs:
+>Asks for a 4-digit number.
 
-A simple yet powerful **Password Generator** built using Python. This terminal-based tool allows you to create strong, customizable passwords for enhanced security.
+>Asks for 4 alphabets.
 
----
+>Asks for special characters only (like @, #, $, %, etc.)
 
-## 🚀 Features
 
-- 🧠 User-defined password length
-- 🔠 Option to include:
-  - Uppercase letters
-  - Lowercase letters
-  - Numbers
-  - Special characters
-- 🔁 Fully randomized and secure
-- 🖥️ Clean command-line interface
+Validation::
+>Ensures exactly 4 digits for numbers.
 
----
+>Ensures exactly 4 letters for alphabets.
 
-## 📸 Demo
+>Special characters should not contain any letters or numbers.
 
-```bash
-🔐 Password Generator 🔐
-Enter password length: 12
-Include uppercase letters? (y/n): y
-Include lowercase letters? (y/n): y
-Include digits? (y/n): y
-Include symbols? (y/n): y
 
-Generated Password: @h7W!bX#3fPz
+Password Adjustments::
+>If the entered alphabets are all lowercase, the last alphabet is automatically capitalized.
+
+
+Password Length Check::
+>Ensures the total password length is not more than 9 characters.
+
+>If it exceeds, the process restarts automatically.
+
+
+Output::
+>Displays the password length.
+
+>Displays the final password in the format:    <4-digit number><special characters><modified alphabets>
