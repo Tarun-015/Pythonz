@@ -3,7 +3,7 @@
 > Python is my first programming language.  
 > So, in this repo, I will keep track of my first few (beginner-friendly) projects in Python.  
 > It will include small games, mini functional projects, and general coding assignments.
-
+√let's start
 ---
 
 ## 📁 What's Inside?
