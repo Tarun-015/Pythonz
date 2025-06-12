@@ -20,3 +20,6 @@ pythonz/
 ├── Expenses_tracker.py # Main script to run the app
 ├── expenses.csv # File where all expenses are stored
 └── expemsesREADME.md # Project documentation
+
+## Output ::
+![Screenshot 2025-06-12 105205](https://github.com/user-attachments/assets/fe755789-338d-47f1-b754-11a75f17909e)
