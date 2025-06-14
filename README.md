@@ -20,4 +20,7 @@ To learn Python through practical, hands-on mini projects while having fun and b
 
 ---
 
+## Projects ::
+
+
 ## 🚀 Let's Code and Grow!
