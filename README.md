@@ -21,6 +21,14 @@ To learn Python through practical, hands-on mini projects while having fun and b
 ---
 
 ## Projects ::
+> 3 prisoners problem
 
+>Calculator with GUI
+
+>Expense tracker(mini file handling project)
+
+>Password - set a strong password
+
+>Madlib(a fun game)
 
 ## 🚀 Let's Code and Grow!
