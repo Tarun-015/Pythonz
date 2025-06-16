@@ -14,7 +14,7 @@
 
 ---
 
-## 💡 Goal
+## 💡 Goal ->
 
 To learn Python through practical, hands-on mini projects while having fun and building consistency.
 
