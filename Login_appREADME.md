@@ -15,5 +15,11 @@ A simple and secure user authentication system built using **Streamlit** and **P
 
 ---
 
+## UI
 
 
+![Screenshot 2025-07-08 175844](https://github.com/user-attachments/assets/0892ce10-e72f-416b-aae6-c7dae480092d)
+
+![Screenshot 2025-07-08 175826](https://github.com/user-attachments/assets/fd6c5274-d73a-4d05-b439-90827998ab33)
+
+![Screenshot 2025-07-08 175735](https://github.com/user-attachments/assets/78bcbc90-034e-46c6-bda4-76a59ce98e85)
