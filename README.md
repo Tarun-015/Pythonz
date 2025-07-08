@@ -31,4 +31,6 @@ To learn Python through practical, hands-on mini projects while having fun and b
 
 >Madlib(a fun game)
 
+>Personal Mood Journal
+
 ## 🚀 Let's Code and Grow!
