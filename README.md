@@ -8,9 +8,9 @@
 
 ## 📁 What's Inside?
 
-- 🎮 **Mini Games** — like number guessing, rock-paper-scissors, etc.
-- 🛠️ **Functional Projects** — calculators, converters, etc.
-- 🧠 **Practice Assignments** — basic logic-building and coding tasks
+- **Mini Games** — like number guessing, rock-paper-scissors, etc.
+- **Functional Projects** — calculators, converters, etc.
+- **Practice Assignments** — basic logic-building and coding tasks
 
 ---
 
