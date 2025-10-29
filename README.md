@@ -6,7 +6,7 @@
 √let's start
 ---
 
-## 📁 What's Inside?
+##  What's Inside?
 
 - **Mini Games** — like number guessing, rock-paper-scissors, etc.
 - **Functional Projects** — calculators, converters, etc.
@@ -14,7 +14,7 @@
 
 ---
 
-## 💡 Goal ->
+##  Goal ->
 
 To learn Python through practical, hands-on mini projects while having fun and building consistency.
 
@@ -35,4 +35,4 @@ To learn Python through practical, hands-on mini projects while having fun and b
 
 >Login_app(streamlit)
 
-## 🚀 Let's Code and Grow!
+## Let's Code and Grow!
